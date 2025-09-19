@@ -1,5 +1,3 @@
-<?php require_once 'head.php'; ?>
-
 <header>
     <div id="logo">
         <img src="img/curio-logo.png" alt="" width="200px">
