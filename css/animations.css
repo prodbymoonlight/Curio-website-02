@@ -1,0 +1,19 @@
+#animate {
+    opacity: 0;
+}
+.show {
+    animation: slide-fade-in 800ms ease;
+    animation-fill-mode: forwards;
+    transition-delay: 300ms;
+}
+
+@keyframes slide-fade-in {
+    0% {
+        opacity: 0;
+        translate: -100%;
+    }
+    100% {
+        opacity: 1;
+        translate: 0;
+    }
+}
